@@ -26,4 +26,10 @@
     nav:has(> .linkShow){
     flex-direction: column;
     }
+
+    #courseContainer {
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+}
 }
