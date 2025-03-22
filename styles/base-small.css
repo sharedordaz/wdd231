@@ -29,7 +29,7 @@
 
     #courseContainer {
     padding: 5px;
-    display: flex;
-    flex-direction: column; 
+    display: grid;
+    grid-template: 1fr / auto;
 }
 }
