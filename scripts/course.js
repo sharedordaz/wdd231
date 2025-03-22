@@ -20,7 +20,7 @@ function createCourseCard(course) {
 
 // Function to update the courses display dynamically
 function updateCourseDisplay(courseList) {
-    const courseContainer = document.getElementById("course-card");
+    const courseContainer = document.getElementById("courseContainer");
     courseContainer.innerHTML = '';  // Clear the current list
 
     let totalCredits = 0;
@@ -37,7 +37,7 @@ function updateCourseDisplay(courseList) {
 
 // Function to filter and display courses based on subject
 function filterCourses(subject) {
-    console.log(courses[1])
+    //console.log(courses[1])
     let filteredCourses = courses;
     if (subject !== 'All') {
         filteredCourses = courses.filter(course => course.subject === subject);
