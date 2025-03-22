@@ -121,3 +121,10 @@ footer{
     text-align: center;
     color: white;
 }
+
+/*JS HAMBURGUER*/
+.hamburguer{
+    visibility:collapse;
+    user-select: none;
+}
+

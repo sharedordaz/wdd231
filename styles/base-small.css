@@ -4,4 +4,26 @@
         grid-template: auto / 1fr;
         gap: 5%;
     }
+
+    .hamburguer{
+        visibility: visible;
+        font-size:3em;
+        padding: 0px;
+        margin:-10px;
+    }
+
+    .linkHidden{
+        visibility: collapse;
+
+    }
+
+    .linkShow{
+        display:block;
+        visibility: visible;
+
+    }
+
+    nav:has(> .linkShow){
+    flex-direction: column;
+    }
 }
