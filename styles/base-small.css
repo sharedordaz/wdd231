@@ -1,0 +1,7 @@
+@media (max-width: 481px) {
+    main{
+        display: grid;
+        grid-template: auto / 1fr;
+        gap: 5%;
+    }
+}
