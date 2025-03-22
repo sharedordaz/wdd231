@@ -10,9 +10,6 @@ function createCourseCard(course) {
 
     courseCard.innerHTML = `
         <h3>${course.title} (${course.subject} ${course.number})</h3>
-        <p><strong>Credits:</strong> ${course.credits}</p>
-        <p><strong>Description:</strong> ${course.description}</p>
-        <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
     `;
 
     return courseCard;
@@ -42,6 +39,9 @@ function filterCourses(subject) {
     if (subject !== 'All') {
         filteredCourses = courses.filter(course => course.subject === subject);
     }
+
+    let counter = filteredCourses.length;
+    document.getElementById("numCourses").textContent = counter;
     updateCourseDisplay(filteredCourses);
 }
 
