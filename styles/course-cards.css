@@ -1,0 +1,28 @@
+.course-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.course-card.completed {
+    background-color: #e0ffe0; /* Light green background for completed courses */
+}
+
+#course-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#course-container .course-card {
+    width: 30%;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}

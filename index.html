@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/course-cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -50,8 +51,13 @@
        </section>
     </main>
     <h1></h1>
-    <section>
-
+    <section  class="card">
+        <h2>Web and Computer programming certificate</h2>
+        <div id="course-card">
+            <button id="all-courses-btn">All Courses</button>
+            <button id="wdd-courses-btn">WDD Courses</button>
+            <button id="cse-courses-btn">CSE Courses</button>
+        </div>
     </section>
     <footer>
         <p>Copyright: <span id="year"></span></p>
@@ -60,5 +66,6 @@
     
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script type="module" src="scripts/course.js"></script>
 </body>
 </html>
