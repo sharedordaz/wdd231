@@ -9,7 +9,7 @@
         visibility: visible;
         font-size:3em;
         padding: 0px;
-        margin:-10px;
+        margin-left:30%;
     }
 
     .linkHidden{
@@ -18,12 +18,11 @@
     }
 
     .linkShow{
-        display:block;
         visibility: visible;
 
     }
 
-    nav:has(> .linkShow){
+    nav ul:has(> .linkShow){
     flex-direction: column;
     }
 
