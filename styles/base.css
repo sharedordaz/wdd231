@@ -1,0 +1,114 @@
+h1, h2, h3{
+    font-family:Oswald;
+}
+
+p, a, li, span{
+    font-family:"Schibsted Grotesk";
+}
+
+header{
+    background-color: #174e70;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    margin: 0.5em;
+
+}
+
+header img{
+    max-width: 100%;
+    width: 5rem;
+}
+
+main{
+    max-width:100%;
+}
+
+
+nav{
+    background-color: #333333;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    flex: 1;
+    padding: 1em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color:#666666;
+}
+
+
+
+main{
+    display: grid;
+    grid-template: auto / 3fr 2fr;
+    gap: 5%;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #174e70;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2{
+    padding:0.2em;
+}
+
+.card div{
+    background-color: white;
+    max-height: 100%;
+    flex: 1;
+}
+
+.card div p{
+    padding:1em;
+    display: flex;
+}
+.card h2{
+   color: #edfcff;
+   top:0;
+   border-radius:5px;
+   font-size: 24px;
+   text-align: center;
+
+}
+
+.card p {
+   color:#333333; 
+   font-size:18px; 
+}
+.card img{
+    max-width:150px;
+}
+
+.card ul{
+    flex: 1;
+}
+
+footer{
+    padding:0.5em;
+    display: block;
+    background-color: #174e70;
+    text-align: center;
+    color: white;
+}
