@@ -12,10 +12,29 @@ p, em, strong, i, button, pre, span, footer{
     font-family: "Lora", serif;
 }
 
+main{
+    background-color:white;
+    margin: 4% 7%;
+}
 
 header{
+    background-color:var(--african);
     display:grid;
     grid-template:1fr / 1fr 3fr;
+
+    align-items: center;
+}
+
+picture{
+    overflow: hidden;
+    padding: 1;   
+}
+#hero_image{
+    align-self: center;
+    width: 100%;
+    height:250px;
+    object-fit:cover;
+
 }
 
 /*Header*/
