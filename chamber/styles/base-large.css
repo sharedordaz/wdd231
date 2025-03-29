@@ -12,6 +12,13 @@ p, em, strong, i, button, pre, span, footer{
     font-family: "Lora", serif;
 }
 
+
+header{
+    display:grid;
+    grid-template:1fr / 1fr 3fr;
+}
+
+/*Header*/
 .navbar {
     background-color: var(--formal-black);
     color: white;
@@ -39,4 +46,14 @@ p, em, strong, i, button, pre, span, footer{
 .navbar a:active{
     cursor: grabbing;
 
+}
+
+.hamburguer{
+    visibility:collapse;
+    user-select:none;
+    cursor: pointer;
+}
+
+.navbar h1{
+    padding:0 1rem;
 }
