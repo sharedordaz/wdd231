@@ -13,7 +13,6 @@ p, em, strong, i, button, pre, span, footer{
 }
 
 main{
-    background-color:white;
     margin: 4% 7%;
 }
 
@@ -94,7 +93,7 @@ picture{
 }
 
 .w_card div{
-    background-color: var(--t-beige);
+    background-color: white;
     max-height: 100%;
     flex: 1;
 }
@@ -122,4 +121,11 @@ picture{
 
 .w_card ul{
     flex: 1;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: var(--african);
+    margin:auto;
 }
