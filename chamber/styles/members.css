@@ -1,0 +1,44 @@
+/* Business Card Styles */
+.business_container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.business_container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Grid View Specific Styles */
+.grid-view .business_container {
+    /* Grid view specific styles */
+}
+
+/* List View Specific Styles */
+.list-view .business_container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.list-view .business_container img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.business_container img{
+        max-width: 15%;
+    }
+
+@media (max-width: 500px){
+    
+    .business_container{
+    font-size: 0.3em;
+    }
+
+}

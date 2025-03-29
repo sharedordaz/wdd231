@@ -16,6 +16,11 @@ main{
     margin: 4% 7%;
 }
 
+.business_container{
+    margin: 4% 7%;
+    gap: 1%;
+}
+
 header{
     background-color:var(--african);
     display:grid;

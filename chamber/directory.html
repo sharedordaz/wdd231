@@ -19,6 +19,7 @@
  
     <link rel="stylesheet" href="styles/base-large.css">
     <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/members.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
     <title>Timbuktu Chamber of Commerce</title>
@@ -57,14 +58,19 @@
         </section>
 
     </main>
-    <div class="business_grid">
-
+    <div class="view-toggle">
+        <button id="grid-view" class="active">Grid View</button>
+        <button id="list-view">List View</button>
+    </div>
+    <div class="business_container">
+        <!--JS Content-->
     </div>
 
     <footer>
         <p>&copy; <span id='currentyear'></span> Shared Israel Ordaz Santillan, Mexico</p>
         <p id='lastModified'></p>
     </footer>
+    <script src="scripts/display_members.js"></script>
     <script src="scripts/getDates.js" defer></script>  
     <script src="scripts/menu.js" defer></script>
 </body>

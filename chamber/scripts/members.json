@@ -4,7 +4,7 @@
       "address": "123 Main St, Anytown, AN 12345",
       "phone": "+1 (555) 123-4567",
       "website": "https://techinnovations.example.com",
-      "image": "tech-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 3,
       "description": "Leading provider of AI-driven business solutions."
     },
@@ -13,7 +13,7 @@
       "address": "456 Oak Ave, Somewhere, SW 67890",
       "phone": "+1 (555) 987-6543",
       "website": "https://greenearthfarms.example.com",
-      "image": "greenearth-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 2,
       "description": "Organic produce and sustainable farming."
     },
@@ -22,7 +22,7 @@
       "address": "789 Pine Rd, Highlands, HL 34567",
       "phone": "+1 (555) 456-7890",
       "website": "https://summitbuilders.example.com",
-      "image": "summit-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 1,
       "description": "Commercial and residential construction experts."
     },
@@ -31,7 +31,7 @@
       "address": "321 Harbor Blvd, Portville, PV 87654",
       "phone": "+1 (555) 234-5678",
       "website": "https://blueocean.example.com",
-      "image": "ocean-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 3,
       "description": "Global shipping and supply chain management."
     },
@@ -40,7 +40,7 @@
       "address": "654 Market St, Downtown, DT 54321",
       "phone": "+1 (555) 345-6789",
       "website": "https://pioneermarketing.example.com",
-      "image": "pioneer-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 2,
       "description": "Data-driven digital marketing agency."
     },
@@ -49,7 +49,7 @@
       "address": "987 Sunrise Ln, Riverside, RS 13579",
       "phone": "+1 (555) 567-8901",
       "website": "https://sunrisecafe.example.com",
-      "image": "cafe-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 1,
       "description": "Artisanal coffee and baked goods."
     },
@@ -58,7 +58,7 @@
       "address": "246 Gym Way, Healthville, HV 86420",
       "phone": "+1 (555) 678-9012",
       "website": "https://elitefitness.example.com",
-      "image": "fitness-icon.png",
+      "image": "placeholder.png",
       "membershipLevel": 3,
       "description": "Premium gym with personalized training programs."
     }
