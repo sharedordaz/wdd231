@@ -76,3 +76,50 @@ picture{
 .navbar h1{
     padding:0 1rem;
 }
+
+
+/*Cards*/
+.w_card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: var(--t-green);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.w_card h2{
+    padding:0.2em;
+}
+
+.w_card div{
+    background-color: var(--t-beige);
+    max-height: 100%;
+    flex: 1;
+}
+
+.w_card div p{
+    padding:1em;
+    display: flex;
+}
+.w_card h2{
+   color: #edfcff;
+   top:0;
+   border-radius:5px;
+   font-size: 24px;
+   text-align: center;
+
+}
+
+.w_card p {
+   color:#333333; 
+   font-size:18px; 
+}
+.w_card img{
+    max-width:150px;
+}
+
+.w_card ul{
+    flex: 1;
+}

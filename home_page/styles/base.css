@@ -64,7 +64,7 @@ main{
     grid-template: auto / 3fr 2fr;
     gap: 5%;
 }
-.card {
+.w_card {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 5px;
@@ -75,11 +75,11 @@ main{
     justify-content: center;
 }
 
-.card h2{
+.w_card h2{
     padding:0.2em;
 }
 
-.card div{
+.w_card div{
     background-color: white;
     max-height: 100%;
     flex: 1;
@@ -89,11 +89,11 @@ main{
 
 
 
-.card div p{
+.w_card div p{
     padding:1em;
     display: flex;
 }
-.card h2{
+.w_card h2{
    color: #edfcff;
    top:0;
    border-radius:5px;
@@ -102,15 +102,15 @@ main{
 
 }
 
-.card p {
+.w_card p {
    color:#333333; 
    font-size:18px; 
 }
-.card img{
+.w_card img{
     max-width:150px;
 }
 
-.card ul{
+.w_card ul{
     flex: 1;
 }
 
