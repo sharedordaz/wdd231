@@ -31,7 +31,7 @@ fetch(url)
     return response.json(); // Parse JSON response
   })
   .then(data => {
-    temperature.textContent = data.main.temp;
+    temperature.textContent = ((data.main.temp - 273.15) * 9/5 + 32);
     high.textContent = data.main.temp_max;
     low.textContent = data.main.temp_min;
     humidity.textContent = data.main.humidity;
@@ -47,10 +47,9 @@ fetch(url)
         hour12: true
       });
  
-    console.log(data); // Handle the data
-
-
+    //console.log(data); 
   })
   .catch(error => {
     console.error('There was a problem with the fetch operation:', error);
   });
+
