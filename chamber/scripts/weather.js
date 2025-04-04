@@ -34,6 +34,11 @@ fetch(url)
     low.textContent = ((data.main.temp_min - 273.15) * 9/5 + 32).toFixed(2);
     humidity.textContent = data.main.humidity;
 
+    //console.log(data.weather[0].icon);
+
+    tempIcon.src = `images/openweather/${data.weather[0].icon}_t@4x.png`;
+    tempIcon.alt = data.weather[0].description;
+
     let sunrise_date = new Date(data.sys.sunrise * 1000);
     let sunset_date = new Date (data.sys.sunset * 1000)
     sunrise.textContent = sunrise_date.toLocaleTimeString('en-US', {
