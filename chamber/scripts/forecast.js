@@ -49,6 +49,9 @@ fetch(url2)
 
 
     //Handle temperature
+    todayTemp.textContent = ((data.list[0].main.temp - 273.15) * 9/5 + 32).toFixed(2);
+    tomTemp.textContent = ((data.list[8].main.temp - 273.15) * 9/5 + 32).toFixed(2);
+    twoTemp.textContent = ((data.list[16].main.temp - 273.15) * 9/5 + 32).toFixed(2);
 
   })
   .catch(error => {
