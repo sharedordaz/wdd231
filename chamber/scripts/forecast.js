@@ -14,8 +14,8 @@ let tomTemp = document.getElementById('tom_temp');
 let twoTemp = document.getElementById('two_temp');
 
 let today = document.getElementById('today');
-let tomorrow = document.getElementById('tom_temp');
-let two_days = document.getElementById('two_temp');
+let tomorrow = document.getElementById('tomorrow');
+let two_days = document.getElementById('two_days');
 
 
 function getDayOfWeek(unixTime) {
@@ -45,6 +45,10 @@ fetch(url2)
     let two_weekd = getDayOfWeek(data.list[16].dt);
     console.log(Date(data.list[2].dt));
     two_days.textContent = two_weekd;
+
+
+
+    //Handle temperature
 
   })
   .catch(error => {
