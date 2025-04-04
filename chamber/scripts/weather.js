@@ -5,7 +5,9 @@ const lon = "3.0088459";
 
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${APIKEY}`;
 
-console.log(url);
+//console.log(url);
+
+
 
 // Current Weather section
 let temperature = document.getElementById('temperature');
@@ -16,10 +18,6 @@ let humidity = document.getElementById('humidity');
 let sunrise = document.getElementById('sunrise');
 let sunset = document.getElementById('sunset');
 
-// Weather Forecast section
-let todayTemp = document.getElementById('today_temp');
-let tomTemp = document.getElementById('tom_temp');
-let twoTemp = document.getElementById('two_temp');
 
 
 fetch(url)
@@ -31,9 +29,9 @@ fetch(url)
     return response.json(); // Parse JSON response
   })
   .then(data => {
-    temperature.textContent = ((data.main.temp - 273.15) * 9/5 + 32);
-    high.textContent = data.main.temp_max;
-    low.textContent = data.main.temp_min;
+    temperature.textContent = ((data.main.temp - 273.15) * 9/5 + 32).toFixed(2);
+    high.textContent = ((data.main.temp_max - 273.15) * 9/5 + 32).toFixed(2);
+    low.textContent = ((data.main.temp_min - 273.15) * 9/5 + 32).toFixed(2);
     humidity.textContent = data.main.humidity;
 
     let sunrise_date = new Date(data.sys.sunrise * 1000);
