@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+
+    <!--Requirement by BYU-->
+    <meta name="description" content="WDD 231 - Web frontend Development, Shared Israel Ordaz Santillan">
+    <meta name="author" content="Shared Ordaz">
+
+    <!--Facebook meta tags-->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.jpg">
+    <meta property="og:url" content="https://sharedordaz.github.io/wdd231/chamber/directory.html">
+
+    <!--Fonts-->
+    <!-- Preload and Font Loading Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+    </noscript>
+
+    <link rel="icon" href="favicon.ico">
+ 
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/members.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <title>Timbuktu Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="site_name">
+        <h1>Timbuktu</h1>
+        <h6>Chamber of commerce</h6>
+        </div>
+        <nav class="navbar">
+        <a class="hamburguer" >☰</a>
+        <a class="linkHidden" href="#">Home</a>
+        <a class="linkHidden" href="#">Discover</a>
+        <a class="linkHidden" href="#">Business Directory</a>
+        <a class="linkHidden" href="#">Join</a>
+        </nav>
+    </header>
+    <div>
+        <picture>
+            <img id="hero_image" src="images/banner_large.webp" alt="Banner_large">
+        </picture>
+    </div>
+    <main>
+        <section class="w_card">
+            <h2>Events</h2>
+            <div>Dummy information</div>
+        </section>
+        <section class="w_card">
+            <h2>Current Weather</h2>
+            <div>
+                <p>Temperature:&nbsp;<span id="temperature"></span> °F</p>
+                <img src="images/placeholder.png" alt="placeholder" id="temp_icon">
+                <p>High:&nbsp;<span id="high"></span>°F</p>
+                <p>Low:&nbsp;<span id="low"></span>°F</p>
+                <p>Humidity:&nbsp;<span id="humidity"></span></p>
+                <p>Sunrise:&nbsp;<span id="sunrise"></span></p>
+                <p>Sunset:&nbsp;<span id="sunset"></span></p>
+            </div>
+        </section>
+        <section class="w_card">
+            <h2>Weather Forecast</h2>
+            <div>
+                <p>Today&nbsp;<span id="today"></span>:&nbsp;<span id="today_temp"></span>&nbsp;°F</p>
+                <p><span id="tomorrow"></span>:&nbsp;<span id="tom_temp"></span>&nbsp;°F</p>
+                <p><span id="two_days"></span>:&nbsp;<span id="two_temp"></span>&nbsp;°F</p>
+            </div>
+        </section>
+
+    </main>
+    <div class="view-toggle">
+        <button id="grid-view" class="active">Grid View</button>
+        <button id="list-view">List View</button>
+    </div>
+    <div class="business_container">
+        <!--JS Content-->
+    </div>
+
+    <footer>
+        <p>&copy; <span id='currentyear'></span> Shared Israel Ordaz Santillan, Mexico</p>
+        <p id='lastModified'></p>
+    </footer>
+    <script src="scripts/display_members.js"></script>
+    <script src="scripts/get_dates.js" defer></script>  
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/forecast.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+
+    <!--Requirement by BYU-->
+    <meta name="description" content="WDD 231 - Web frontend Development, Shared Israel Ordaz Santillan">
+    <meta name="author" content="Shared Ordaz">
+
+    <!--Facebook meta tags-->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.jpg">
+    <meta property="og:url" content="https://sharedordaz.github.io/wdd231/chamber/directory.html">
+
+    <!--Fonts-->
+    <!-- Preload and Font Loading Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
+    </noscript>
+
+    <link rel="icon" href="favicon.ico">
+ 
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/members.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <title>Timbuktu Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="site_name">
+        <h1>Timbuktu</h1>
+        <h6>Chamber of commerce</h6>
+        </div>
+        <nav class="navbar">
+        <a class="hamburguer" >☰</a>
+        <a class="linkHidden" href="#">Home</a>
+        <a class="linkHidden" href="#">Discover</a>
+        <a class="linkHidden" href="#">Business Directory</a>
+        <a class="linkHidden" href="#">Join</a>
+        </nav>
+    </header>
+    <div>
+        <picture>
+            <img id="hero_image" src="images/banner_large.webp" alt="Banner_large">
+        </picture>
+    </div>
+    <main>
+        <section class="membership-form-section">
+            <form method="get" action="thankyou.html" class="membership-form">
+              <label>
+                First Name:
+                <input type="text" name="firstName" title="First Name" required autocomplete="given-name">
+              </label>
+              <label>
+                Last Name:
+                <input type="text" name="lastName" title="Last Name" required autocomplete="family-name">
+              </label>
+              <label>
+                Organizational Title:
+                <input type="text" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+              </label>
+              <label>
+                Email:
+                <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="example@domain.com">
+              </label>
+              <label>
+                Mobile Phone:
+                <input type="tel" name="phone" title="Mobile Phone Number" required autocomplete="tel">
+              </label>
+              <label>
+                Business/Organization Name:
+                <input type="text" name="organization" title="Organization Name" required autocomplete="organization">
+              </label>
+              <label>
+                Membership Level:
+                <select name="membership" title="Membership Level">
+                  <option value="NP">NP Membership (Free)</option>
+                  <option value="Bronze">Bronze Membership</option>
+                  <option value="Silver">Silver Membership</option>
+                  <option value="Gold">Gold Membership</option>
+                </select>
+              </label>
+              <label>
+                Description of Business/Organization:
+                <textarea name="description" title="Business Description"></textarea>
+              </label>
+              <input type="hidden" id="timestamp" name="timestamp">
+              <input type="submit" value="Submit Application">
+            </form>
+          </section>
+          
+          <section class="membership-cards-container">
+            <div class="membership-card" id="np-card">
+              <h3>NP Membership</h3>
+              <p>Non-Profit: Free!</p>
+              <a href="#modal-np">More Info</a>
+            </div>
+            <div class="membership-card" id="bronze-card">
+              <h3>Bronze Membership</h3>
+              <p>Basic member access.</p>
+              <a href="#modal-bronze">More Info</a>
+            </div>
+            <div class="membership-card" id="silver-card">
+              <h3>Silver Membership</h3>
+              <p>Includes training & events.</p>
+              <a href="#modal-silver">More Info</a>
+            </div>
+            <div class="membership-card" id="gold-card">
+              <h3>Gold Membership</h3>
+              <p>Full benefits + advertising.</p>
+              <a href="#modal-gold">More Info</a>
+            </div>
+          </section>
+          
+          <!-- Membership Modals -->
+          <div class="modal" id="modal-np">
+            <div class="modal-content">
+              <h4>NP Membership</h4>
+              <p>Free access for non-profits to local networking and event participation.</p>
+              <a href="#">Close</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-bronze">
+            <div class="modal-content">
+              <h4>Bronze Membership</h4>
+              <p>Access to community events, basic listing on the directory, and 5% discount at events.</p>
+              <a href="#">Close</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-silver">
+            <div class="modal-content">
+              <h4>Silver Membership</h4>
+              <p>All Bronze benefits, plus featured spotlights, training invitations, and 10% discounts.</p>
+              <a href="#">Close</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-gold">
+            <div class="modal-content">
+              <h4>Gold Membership</h4>
+              <p>All Silver benefits, plus homepage advertisement, premium event access, and 20% discounts.</p>
+              <a href="#">Close</a>
+            </div>
+          </div> 
+
+    <footer>
+        <p>&copy; <span id='currentyear'></span> Shared Israel Ordaz Santillan, Mexico</p>
+        <p id='lastModified'></p>
+    </footer>
+    <script src="scripts/get_dates.js" defer></script>  
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/membership.js"></script>
+
+</body>
+</html>
