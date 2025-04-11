@@ -8,6 +8,13 @@
     background-color: var(--t-beige);
 }
 
+#byuh1{
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    font-size: 1px;
+}
+
 p, em, strong, i, button, pre, span, footer, h1{
     font-family: "Lora", serif;
 }
