@@ -1,0 +1,53 @@
+{
+    "items": [
+      {
+        "title": "Djinguereber Mosque",
+        "image": "images/djinguereber-mosque.webp",
+        "address": "Abaradjou, Timbuktu, Mali",
+        "description": "Built in 1327 from mud and wood, this mosque is one of the oldest in West Africa and a masterpiece of Sudano-Sahelian architecture."
+      },
+      {
+        "title": "Sankoré University",
+        "image": "images/sankore-university.webp",
+        "address": "Sankoré, Timbuktu, Mali",
+        "description": "A center of Islamic scholarship in the 14th century, Sankoré was home to thousands of students and a vast library of ancient manuscripts."
+      },
+      {
+        "title": "Ahmed Baba Institute",
+        "image": "images/ahmed-baba-institute.webp",
+        "address": "Rue Mohamed V, Timbuktu, Mali",
+        "description": "Named after a famous scholar, this institute preserves thousands of priceless manuscripts on science, law, and philosophy."
+      },
+      {
+        "title": "Timbuktu Manuscripts Museum",
+        "image": "images/manuscripts-museum.webp",
+        "address": "Timbuktu, Mali",
+        "description": "A museum dedicated to the conservation and exhibition of Timbuktu’s ancient written heritage, dating back centuries."
+      },
+      {
+        "title": "Tomb of Askia Mohamed",
+        "image": "images/tomb-of-askia.webp",
+        "address": "Gao Rd, Timbuktu Region, Mali",
+        "description": "A UNESCO World Heritage Site built in 1495, this pyramid-shaped tomb honors the powerful ruler of the Songhai Empire."
+      },
+      {
+        "title": "Timbuktu Desert Gate",
+        "image": "images/desert-gate.webp",
+        "address": "Entrance to Timbuktu via Sahara Trail",
+        "description": "A symbolic gateway where camel caravans once arrived, marking Timbuktu as a hub in the trans-Saharan trade routes."
+      },
+      {
+        "title": "Explorer’s Monument",
+        "image": "images/explorers-monument.webp",
+        "address": "Explorers Square, Timbuktu, Mali",
+        "description": "A monument dedicated to explorers like René Caillié who braved the desert to reach Timbuktu in the 19th century."
+      },
+      {
+        "title": "House of Heinrich Barth",
+        "image": "images/heinrich-barth-house.webp",
+        "address": "Rue Heinrich Barth, Timbuktu, Mali",
+        "description": "The residence of the German explorer who documented West African culture and geography during his travels in the 1850s."
+      }
+    ]
+  }
+  
