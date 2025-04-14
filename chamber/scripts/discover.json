@@ -2,7 +2,7 @@
     "items": [
       {
         "title": "Djinguereber Mosque",
-        "image": "images/djinguereber-mosque.webp",
+        "image": "images/dji-mosque.webp",
         "address": "Abaradjou, Timbuktu, Mali",
         "description": "Built in 1327 from mud and wood, this mosque is one of the oldest in West Africa and a masterpiece of Sudano-Sahelian architecture."
       },
@@ -14,19 +14,19 @@
       },
       {
         "title": "Ahmed Baba Institute",
-        "image": "images/ahmed-baba-institute.webp",
+        "image": "images/ahmed-baba.webp",
         "address": "Rue Mohamed V, Timbuktu, Mali",
         "description": "Named after a famous scholar, this institute preserves thousands of priceless manuscripts on science, law, and philosophy."
       },
       {
         "title": "Timbuktu Manuscripts Museum",
-        "image": "images/manuscripts-museum.webp",
+        "image": "images/museum.webp",
         "address": "Timbuktu, Mali",
         "description": "A museum dedicated to the conservation and exhibition of Timbuktu’s ancient written heritage, dating back centuries."
       },
       {
         "title": "Tomb of Askia Mohamed",
-        "image": "images/tomb-of-askia.webp",
+        "image": "images/askia.webp",
         "address": "Gao Rd, Timbuktu Region, Mali",
         "description": "A UNESCO World Heritage Site built in 1495, this pyramid-shaped tomb honors the powerful ruler of the Songhai Empire."
       },
@@ -44,7 +44,7 @@
       },
       {
         "title": "House of Heinrich Barth",
-        "image": "images/heinrich-barth-house.webp",
+        "image": "images/hb-house.webp",
         "address": "Rue Heinrich Barth, Timbuktu, Mali",
         "description": "The residence of the German explorer who documented West African culture and geography during his travels in the 1850s."
       }
