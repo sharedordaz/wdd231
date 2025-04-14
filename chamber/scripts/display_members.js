@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Create card content
             card.innerHTML = `
-                ${member.image ? `<img src="images/${member.image}" alt="${member.name} logo">` : ''}
+                ${member.image ? `<img src="${member.image}" alt="${member.name} logo">` : ''}
                 <h2>${member.name} <span class="membership-badge membership-${member.membershipLevel}">${membershipText}</span></h2>
                 <p><strong>Address:</strong> ${member.address}</p>
                 <p><strong>Phone:</strong> ${member.phone}</p>

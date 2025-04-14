@@ -36,7 +36,7 @@ fetch(url)
 
     //console.log(data.weather[0].icon);
 
-    tempIcon.src = `images/openweather/${data.weather[0].icon}_t@4x.png`;
+    tempIcon.src = `openweather/${data.weather[0].icon}_t@4x.png`;
     tempIcon.alt = data.weather[0].description;
 
     let sunrise_date = new Date(data.sys.sunrise * 1000);
