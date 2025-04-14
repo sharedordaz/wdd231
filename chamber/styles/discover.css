@@ -16,6 +16,17 @@
     overflow-y: scroll;
 }
 
+aside{
+    background-color: var(--t-green);
+    opacity: 0.6;
+    display:block;
+    width:5%;
+    color:white;
+
+    position: fixed;
+    left:1%;
+    top:20%;
+}
 .discover-card{
     background-color:var(--african);
     color:white;
