@@ -5,10 +5,15 @@ async function loadDiscoverCards() {
 
     const container = document.querySelector('.discover-grid');
     container.innerHTML = ''; // Clear existing content
-
+    
+    let dumbCounter = 1;
     data.items.forEach(item => {
+
+    
       const card = document.createElement('section');
       card.classList.add('discover-card');
+      card.style.gridArea = `card${dumbCounter}`;
+      dumbCounter += 1;
 
       const title = document.createElement('h2');
       title.textContent = item.title;

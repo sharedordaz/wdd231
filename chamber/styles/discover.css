@@ -1,27 +1,70 @@
-.discover-grid{
+/* Base (mobile-first) */
+.discover-grid {
     display: grid;
     gap: 2%;
+    grid-template-columns: 1fr;
     grid-template-areas:
-    "a a"
-    "a a"
-    "a a"
-    "a a";
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
     margin: 0% 0% 10% 0%;
-
-    overflow-y:auto;
+    overflow-y: scroll;
 }
 
 .discover-card{
     background-color:var(--african);
     color:white;
 
-    width: 600px;
-    height:400px;
+    width: 95%;
+    height:100%;
 
-    padding: 5%;
+    padding: 1em;
+    
+    align-self: center;
+    justify-self: center;
 }
 
 .discover-card img{
     width:300px;
     height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Medium screens: 641px to 1024px */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+    .discover-card{
+        width:90%;
+        height:auto;
+    }
+
+    
+}
+
+@media screen and (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 card9";
+    }
+   .discover-card{
+        width: 80%;
+        height:90%;
+    }
+
 }
