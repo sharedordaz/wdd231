@@ -1,41 +1,40 @@
 @media (max-width: 481px) {
-header{
-    display:flex;
-    flex-direction: column;
-}
-  .hamburguer{
-    visibility: visible;
-    font-size:3em;
-    width:100%;
-    padding: 0px;
-    margin:-10px;
-}
+    header{
+        flex-direction: column;
 
-.activeBurger{
-    position: relative;
-    bottom: 10vw;
-    left: 40vw;
-    
-    margin: -0.8em;
-    padding: 0;
-    max-width: 1em;
-    display: inline;
-}
-
-.linkHidden{
-    visibility: collapse;
-    transition: ease-in;
-
-}
-
-.linkShow{
-    display:block;
-    visibility: visible;
-
-    transform: translateY(0);
-}
-
-nav:has(> .linkShow){
-flex-direction: column;
-}
-}
+    }
+    .hamburguer {
+      visibility: visible;
+      font-size: 2.5em;
+      padding: 0.5em;
+      cursor: pointer;
+    }
+  
+    .navbar {
+      flex: 1;
+      flex-direction: column;
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+    }
+  
+    .nav-visible {
+      max-height: 500px; /* suficiente para mostrar los enlaces */
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    .navbar a {
+      background-color: var(--emerald);
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+  
+    .navbar a:hover {
+      background-color: var(--giants-orange);
+    }
+  }
+  
