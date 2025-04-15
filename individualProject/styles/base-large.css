@@ -49,11 +49,9 @@ header{
     text-decoration: none;
     color: rgb(65, 62, 62);
 
-    padding:1px;
+    padding:1em;
     text-align:center;
     text-justify: center;
-    flex: 1;
-    height:100%;
     width:100%;
 
     justify-self: center;
