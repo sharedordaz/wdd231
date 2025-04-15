@@ -8,6 +8,8 @@
     --vivid-emerald: rgb(56, 163, 76);
 }
 header{
+
+    width: 100%;
     display:flex;
     background-color:var(--earth-yellow)
 }
@@ -43,7 +45,10 @@ header{
     display: flex;
     justify-content: space-around;
     align-items:center;
+
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease, transform 0.4s ease;
 }
+
 
 .navbar a {
     text-decoration: none;
@@ -56,6 +61,8 @@ header{
 
     justify-self: center;
     align-self: center;
+
+    transition: max-height 0.4s ease-in-out;
 }
 
 

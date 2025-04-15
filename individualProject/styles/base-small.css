@@ -1,11 +1,12 @@
 @media (max-width: 481px) {
-    header{
-    display:grid;
-    grid-template:1fr / 4fr 1fr;
+header{
+    display:flex;
+    flex-direction: column;
 }
   .hamburguer{
     visibility: visible;
     font-size:3em;
+    width:100%;
     padding: 0px;
     margin:-10px;
 }
@@ -23,6 +24,7 @@
 
 .linkHidden{
     visibility: collapse;
+    transition: ease-in;
 
 }
 
@@ -30,6 +32,7 @@
     display:block;
     visibility: visible;
 
+    transform: translateY(0);
 }
 
 nav:has(> .linkShow){
