@@ -53,6 +53,15 @@
     
         z-index:1;
     }
+
+    /*FOOTER*/
+    footer{
+        flex-direction: column;
+    }
+
+    footer a{
+        font-size: 0px;
+    }
     
 
   }

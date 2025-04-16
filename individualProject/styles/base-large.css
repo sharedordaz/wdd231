@@ -10,10 +10,14 @@
 
 /*HEADING*/
 header{
-
+    position:fixed;
     width: 100%;
     display:flex;
-    background-color:var(--earth-yellow)
+    background-color:var(--earth-yellow);
+    z-index:5;
+}
+#headerSpace{
+    height:7em;
 }
 
 .logo{
@@ -24,7 +28,7 @@ header{
     cursor:pointer;
 }
 
-#name:hover, .logo img:hover{
+.logo:hover{
     filter:brightness(1.2);
     transition: 0.1s;
 }
@@ -158,6 +162,8 @@ footer{
     background-color: var(--earth-yellow);
 
     display:flex;
+
+    margin-top:1em;
 }
 
 footer .social{
