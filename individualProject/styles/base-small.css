@@ -40,5 +40,20 @@
     .navbar a:hover {
       background-color: var(--giants-orange);
     }
+
+    /*BANNER*/
+    .banner h1{
+        position: absolute;
+        top:20%;
+        padding-left: 5%;
+    
+        font-size: 2em;
+        color:white;
+        filter:drop-shadow(0px 0px 5px black);
+    
+        z-index:1;
+    }
+    
+
   }
   

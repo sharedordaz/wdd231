@@ -59,7 +59,7 @@ header{
 
     padding:1em;
     text-align:center;
-    text-justify: center;
+    text-justify:distribute;
     width:100%;
 
     justify-self: center;
@@ -147,7 +147,6 @@ header{
 .banner button:active{
     filter:brightness(0.8);
     border:1px solid gray;
-    filter:drop-shadow(2);
 }
 
 
