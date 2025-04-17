@@ -101,6 +101,8 @@ header{
 
 .navbar a:hover{
     background-color: var(--giants-orange);
+    color:white;
+
     transition: 0.4s;
 }
 
