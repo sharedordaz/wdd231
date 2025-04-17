@@ -66,6 +66,10 @@
     border: 1px solid gray;
   }
 
+  #modal video{
+    width: 100%;
+    height: 50vh; 
+  }
   #modal iframe{
     width: 100%;
     height: 50vh;
