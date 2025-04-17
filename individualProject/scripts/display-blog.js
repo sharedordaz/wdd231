@@ -24,16 +24,19 @@ export async function loadEvents(containerId) {
         container.appendChild(card);
       });
 
-      let myButton = document.querySelector(".more-btn");
+      let myButtons = document.querySelectorAll(".more-btn");
       let xSymbol = document.getElementById("modalClose");
       let modal = document.getElementById("modal");
 
-
+      myButtons.forEach((myButton) => {
       myButton.addEventListener('click', () =>{
           console.log("Modaling");
           modal.classList.toggle('hidden');
 
       })
+
+      })
+
       xSymbol.addEventListener('click', () =>{
           modal.classList.toggle('hidden');
 
