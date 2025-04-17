@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/base-large.css">
     <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/blog-container.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <title>Wenesday Study Circle</title>
 </head>
@@ -51,6 +52,10 @@
 
         </div>
     </section>
+    <div id="modalHidden">
+      <p id="modalClose" onclick="modal">X</p>
+
+    </div>
     </main>
 
     <footer>
@@ -69,7 +74,7 @@
         </div>
         
     </footer>
-    <script type="module" src="scripts/index.js" ></script>
-    <script src="scripts/menu.js"></script>
+    <script type="module" src="scripts/index.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
 </body>
 </html>
