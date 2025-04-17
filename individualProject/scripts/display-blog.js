@@ -15,7 +15,7 @@ export async function loadEvents(containerId) {
         const card = document.createElement("div");
         card.classList.add("card");
         card.innerHTML = `
-          <h3>${event.title}</h3>
+          <h1>${event.title}</h1>
           <p><strong>Date:</strong> ${event.date}</p>
           <p><strong>Speaker:</strong> ${event.speaker}</p>
           <p>${event.description}</p>

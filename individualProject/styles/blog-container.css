@@ -23,7 +23,8 @@
   }
   
   /* Card title */
-  .card h3 {
+  .card h1 {
+    font-size: 1.5em;
     margin-top: 0;
     color: black;
   }
