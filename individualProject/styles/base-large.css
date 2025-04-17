@@ -1,11 +1,19 @@
-:root{
-    /*COOLORS*/
+/*:root{
     --giants-orange: #fe5d26ff;
     --earth-yellow: #f2c078ff;
     --dutch-white: #faedcaff;
     --tea-green: #c1dbb3ff;
     --emerald: #7ebc89ff;
     --vivid-emerald: rgb(56, 163, 76);
+} */
+
+:root{
+    --giants-orange: rgb(151, 38, 0);
+    --earth-yellow: #f2c078ff;
+    --dutch-white: #faedcaff;
+    --tea-green: #c1dbb3ff;
+    --emerald: #7ebc89ff;
+    --vivid-emerald: rgb(31, 133, 49);
 }
 
 h1,h2,h3,h4,h5{
