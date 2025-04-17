@@ -16,6 +16,12 @@ p,button, li, a, strong, i, label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.hidden{
+    display:none;
+    width:1px;
+    height:1px;
+}
+
 /*HEADING*/
 header{
     position:fixed;

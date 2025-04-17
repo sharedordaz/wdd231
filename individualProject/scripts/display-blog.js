@@ -19,11 +19,25 @@ export async function loadEvents(containerId) {
           <p><strong>Date:</strong> ${event.date}</p>
           <p><strong>Speaker:</strong> ${event.speaker}</p>
           <p>${event.description}</p>
-          <button data-index="${index}" class="more-btn">More Info</button>
+          <button data-index="${index}" class="more-btn">Show Video</button>
         `;
         container.appendChild(card);
       });
-  
+
+      let myButton = document.querySelector(".more-btn");
+      let xSymbol = document.getElementById("modalClose");
+      let modal = document.getElementById("modal");
+
+
+      myButton.addEventListener('click', () =>{
+          console.log("Modaling");
+          modal.classList.toggle('hidden');
+
+      })
+      xSymbol.addEventListener('click', () =>{
+          modal.classList.toggle('hidden');
+
+      })
 
     } catch (err) {
       console.error("Failed to fetch events:", err);
