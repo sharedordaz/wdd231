@@ -30,6 +30,10 @@ p,button, li, a, strong, i, label{
     height:1px;
 }
 
+button{
+    color:var(--dutch-white);
+}
+
 /*HEADING*/
 header{
     position:fixed;
@@ -64,7 +68,7 @@ header{
 }
 .logo strong{
     font-size: 1em;
-    color: grey;
+    color: rgb(66, 66, 66);
 }
 
 /*NAVBAR*/
